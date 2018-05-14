@@ -1,0 +1,31 @@
+{
+    "name": "Instrument Tuner",
+    "color": "#17afb2",
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "Tuner Options",
+                "fields": [
+                    {
+                        "type": "label",
+                        "label": "By default this skill uses the sounds of a guitar. You can select what type of instrument that you would like Mycroft to play."
+                    },
+                    {
+                        "name": "instrument_select",
+                        "type": "select",
+                        "label": "Instrument",
+                        "options": "Choose Instrument|not_set;Guitar|guitar",
+                        "value": "guitar"
+                    },
+                    {
+                        "name": "play_duration",
+                        "type": "select",
+                        "label": "Note Duration",
+                        "options": "Choose Duration|not_set;Long|very-long",
+                        "value": "very-long"
+                    }
+                ]
+            }
+        ]
+    }
+}
